@@ -1,0 +1,30 @@
+/* ШРИФТЫ */
+@import url(../fonts/Inter/inter.css);
+
+/* БЛОКИ */
+  /* основные */
+@import url(../blocks/root/page.css);
+@import url(../blocks/header/header.css);
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+
+  /* общие */
+@import url();
+@import url();
+
+/* ЭЛЕМЕНТЫ */
+  /* header */
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url();
+
+/* МОДИФИКАТОРЫ */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
