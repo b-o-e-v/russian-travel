@@ -1,0 +1,27 @@
+.lead__promo {
+  margin-top: 64px;
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__promo {
+    margin-top: 56px;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .lead__promo {
+    width: 100vw;
+    -webkit-transform: translate(-24px);
+            transform: translate(-24px);
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .lead__promo {
+    margin-top: 40px;
+    -webkit-transform: translate(-16px);
+            transform: translate(-16px);
+  }
+}

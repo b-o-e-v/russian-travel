@@ -5,7 +5,7 @@
   /* основные */
 @import url(../blocks/root/page.css);
 @import url(../blocks/header/header.css);
-@import url();
+@import url(../blocks/lead/lead.css);
 @import url();
 @import url();
 @import url();
@@ -20,7 +20,16 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+  /* lead */
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__promo/lead__promo.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__way/lead__way.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
 @import url();
+
 
 /* МОДИФИКАТОРЫ */
 @import url();
