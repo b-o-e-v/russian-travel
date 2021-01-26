@@ -6,7 +6,7 @@
 @import url(../blocks/root/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
-@import url();
+@import url(../blocks/intro/intro.css);
 @import url();
 @import url();
 @import url();
@@ -27,12 +27,18 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__way/lead__way.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+  /* intro */
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
 
 @import url();
 
 
 /* МОДИФИКАТОРЫ */
-@import url();
+  /* intro */
+@import url(../blocks/intro/__list/_weight/intro__list_weight_normal.css);
+
 @import url();
 @import url();
 @import url();
