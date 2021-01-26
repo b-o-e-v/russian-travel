@@ -1,0 +1,11 @@
+.place__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+   -webkit-transform: translate(-16px);
+           transform: translate(-16px);
+  }
+}
+  
