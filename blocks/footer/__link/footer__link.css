@@ -1,0 +1,28 @@
+.footer__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__link {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+}
+
+  @media screen and (max-width: 320px) {
+  .footer__link {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+}

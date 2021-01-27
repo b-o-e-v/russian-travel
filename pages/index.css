@@ -9,12 +9,9 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
-@import url(../blocks/cover/cover.css);
-@import url();
-  /* общие */
 @import url(../blocks/place/place.css);
-@import url();
-@import url();
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 
 /* ЭЛЕМЕНТЫ */
   /* header */
@@ -48,14 +45,10 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
   /* footer */
-@import url();
-
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* МОДИФИКАТОРЫ */
   /* intro */
 @import url(../blocks/intro/__list/_weight/intro__list_weight_normal.css);
-
-@import url();
-@import url();
-@import url();
-@import url();
