@@ -2,6 +2,14 @@
   width: 100%;
 }
 
+@media screen and (max-width: 368px) {
+  .place__image {
+    width: 100vw;
+    -webkit-transform: translate(-24px);
+            transform: translate(-24px);
+   }
+ }
+
 @media screen and (max-width: 320px) {
   .place__image {
    -webkit-transform: translate(-16px);

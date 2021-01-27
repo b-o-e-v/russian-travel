@@ -1,0 +1,27 @@
+.cover {
+  margin-top: 92px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+  
+@media screen and (max-width: 368px) {
+  .cover {
+    width: 100vw;
+    -webkit-transform: translate(-24px);
+            transform: translate(-24px);
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 100vw;
+    -webkit-transform: translate(-16px);
+            transform: translate(-16px);
+    margin-top: 66px;
+  }  
+}
