@@ -5,6 +5,8 @@
   top: 0;
   left: 0;
   background-color: rgba(42, 44, 47, 0.3);
+  color: #FFFFFF;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,4 +21,9 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.cover__overlay:hover {
+    transition: 0.5s;
+    background-color: rgba(42, 44, 47, 0.8);
 }

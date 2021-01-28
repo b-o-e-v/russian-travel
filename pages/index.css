@@ -12,6 +12,9 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
+  /* общие */
+@import url(../blocks/link-hover/link-hover.css);
+@import url(../blocks/selected-lang/selected-lang.css);
 
 /* ЭЛЕМЕНТЫ */
   /* header */
