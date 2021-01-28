@@ -1,19 +1,18 @@
 .place__image {
   width: 100%;
+  position: relative;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 631px) {
   .place__image {
     width: 100vw;
-    -webkit-transform: translate(-24px);
-            transform: translate(-24px);
-   }
- }
+    left: -24px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .place__image {
-   -webkit-transform: translate(-16px);
-           transform: translate(-16px);
+     left: -16px;
   }
 }
   

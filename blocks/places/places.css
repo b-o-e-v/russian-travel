@@ -5,13 +5,14 @@
   margin: 92px auto 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
   gap: 80px;
 }
 
 @media screen and (max-width: 768px) {
   .places {
+    width: 100%;
     margin: 88px auto 0;
     gap: 73px;
   }
