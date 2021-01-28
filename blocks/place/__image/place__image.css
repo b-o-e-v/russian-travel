@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 710px) {
   .place__image {
     width: 100vw;
     -webkit-transform: translate(-24px);
@@ -10,7 +10,7 @@
    }
  }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__image {
    -webkit-transform: translate(-16px);
            transform: translate(-16px);

@@ -1,4 +1,7 @@
 .photo-grid {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(284px, 1fr))[auto-fit];
@@ -20,7 +23,7 @@
   }
 }
   
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .photo-grid {
     gap: 12px;
     margin-top: 64px;
