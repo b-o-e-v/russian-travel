@@ -1,0 +1,9 @@
+.video__icon {
+    background: none;
+    border: none;
+    width: 41px;
+    height: 41px;
+    margin: 30px;
+    outline: none;
+    cursor: pointer;
+}
