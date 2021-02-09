@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px) {
+    .comment {
+        max-width: 382px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

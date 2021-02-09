@@ -3,3 +3,16 @@
     grid-template-columns: 1fr 1fr;
     gap: 18px;
 }
+
+@media screen and (max-width: 1024px) {
+    .video__container {
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video__container {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+}

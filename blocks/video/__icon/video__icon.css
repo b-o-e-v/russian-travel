@@ -7,3 +7,15 @@
     outline: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+    .video__icon {
+        margin: 15px 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video__icon {
+        justify-items: flex-start;
+    }
+}

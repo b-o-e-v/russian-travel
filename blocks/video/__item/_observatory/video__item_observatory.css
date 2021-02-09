@@ -1,3 +1,15 @@
 .video__item_observatory {
     background-image: url(../../../../images/video__item2.png);
 }
+
+@media screen and (max-width: 700px) {
+    .video__item_observatory {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .video__item_observatory {
+        background-size: auto;
+    }
+}

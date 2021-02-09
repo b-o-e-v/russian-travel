@@ -7,3 +7,17 @@
     line-height: 35px;
     text-align: center;
 }
+
+@media screen and (max-width: 850px) {
+    .content-subtitle {
+        margin: 0 auto 56px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 48px;
+    }
+}

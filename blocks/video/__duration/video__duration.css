@@ -6,3 +6,21 @@
     letter-spacing: 0.3em;
     margin: 64px 30px 12px;
 }
+
+@media screen and (max-width: 1024px) {
+    .video__duration {
+        margin: 24px 30px 12px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .video__duration {
+        margin: 0 24px 8px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video__duration {
+        margin-top: 0;
+    }
+}

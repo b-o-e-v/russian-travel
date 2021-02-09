@@ -1,3 +1,15 @@
 .video__item_kamchatka {
     background-image: url(../../../../images/video__item.png);
 }
+
+@media screen and (max-width: 700px) {
+    .video__item_kamchatka {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .video__item_kamchatka {
+        background-size: auto;
+    }
+}

@@ -2,3 +2,24 @@
     width: 100%;
     min-height: 323px;
 }
+
+@media screen and (max-width: 1024px) {
+    .video__item {
+        min-height: 288px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .video__item {
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video__item {
+        height: 48vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

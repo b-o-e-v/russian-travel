@@ -2,3 +2,9 @@
     border-radius: 50%;
     margin-bottom: 42px;
 }
+
+@media screen and (max-width: 800px) {
+    .comment__image {
+        margin: 0 auto 16px;
+    }
+}
